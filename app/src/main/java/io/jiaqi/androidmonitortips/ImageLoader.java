@@ -24,7 +24,7 @@ public class ImageLoader {
         Bitmap bitmap = cache.get(image);
         if (bitmap == null) {
             try {
-                java.net.URL url = new java.net.URL(Images.imageURLs[(image % Images.imageURLs.length + Images.imageURLs.length) % Images.imageURLs.length]);
+                java.net.URL url = new java.net.URL(Images.imageURLs[image]);
                 URLConnection connection = url.openConnection();
                 connection.setDoInput(true);
                 connection.connect();

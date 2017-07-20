@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_mono"
+        android:title="单色" />
+    <item
+        android:id="@+id/action_sharpen"
+        android:title="锐化" />
+    <item
+        android:id="@+id/action_clear_cache"
+        android:title="清空缓存" />
+</menu>
